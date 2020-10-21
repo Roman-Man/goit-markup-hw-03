@@ -1,0 +1,218 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+
+  --primary-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+
+  --primary-bg-color: #ffffff;
+  --dark-bg-color: #2f303a;
+  --light-bg-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.14;
+
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--title-text-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+/* Hero */
+
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+/* Button */
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.feature-list .text {
+  line-height: 1.71;
+}
+
+/* Team */
+
+.team {
+  background-color: var(--light-bg-color);
+}
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+.team-list .position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--primary-white-color);
+}
+
+.address .link {
+  color: var(--secondary-white-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio styles */
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--title-text-color);
+  background-color: var(--light-bg-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.gallery-list .link {
+  color: var(--primary-text-color);
+}
+
+.gallery-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.gallery-list .category {
+  font-size: 16px;
+  line-height: 1.87;
+}
