@@ -104,6 +104,15 @@ body {
 
 /* Contacts */
 
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts .item:not(:last-child) {
+  margin-right: 50px
+}
+
 .contacts .link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -121,10 +130,15 @@ body {
 /* Hero */
 
 .hero {
+  text-align: center;
+
   background-color: var(--dark-bg-color);
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
